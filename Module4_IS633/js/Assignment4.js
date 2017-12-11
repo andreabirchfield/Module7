@@ -698,9 +698,10 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     console.log(device.cordova);
 }
+
 function getInfo(){
     
-
+  alert('Model: ' +  device.model);
 var model = device.model;
 }
 
