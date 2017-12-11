@@ -701,8 +701,8 @@ function onDeviceReady() {
 
 function getInfo(){
     
-  alert('Model: ' +  device.model);
-var model = device.model;
+  alert('Model: ' +  device.model + 'Platform:' + device.platform);
+
 }
 
 
