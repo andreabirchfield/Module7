@@ -10,8 +10,8 @@ function MenuChoice(selection)
     document.getElementById("stname").value = "";
     document.getElementById("picture").style.visibility = "hidden";
     document.getElementById("contacts").style.visibility = "hidden";
-    document.getElementById("fonts").style.visibility = "hidden";
-
+    document.getElementById("connection").style.visibility = "hidden";
+    document.getElementById("device").style.visibility = "hidden";
 
     switch(selection)
     {
@@ -53,10 +53,13 @@ function MenuChoice(selection)
         case "contacts":
         document.getElementById("contacts").style.visibility = "visible";
           break;
-        case "font":
-            document.getElementById("fonts").style.visibility = "visible";
+        case "connection":
+            document.getElementById("connection").style.visibility = "visible";
             break;
-        
+        case "device" :
+            document.getElementById("device").style.visibility = "visible";
+            break;
+    
         case "None":
           break;
         
@@ -674,7 +677,7 @@ function onError(contactError) {
 
 
 function checkConnection() {
-    console.log("hi");
+
     var networkState = navigator.connection.type;
 
     var states = {};
@@ -690,6 +693,16 @@ function checkConnection() {
     alert('Connection type: ' + states[networkState]);
 }
 
+
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(device.cordova);
+}
+function getInfo(){
+    
+
+var model = device.model;
+}
 
 
   function goBack() {

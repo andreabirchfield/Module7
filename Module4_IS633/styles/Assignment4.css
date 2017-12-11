@@ -13,6 +13,7 @@
 h1{text-align: center; font-family: cursive;}
 #picture {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #CCFFFF; }
 #contacts {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
-#fonts {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
+#connection {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
+#device {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
 img {float: left; height: 600px; width: auto; box-shadow: 10px 10px 5px 5px;}
 

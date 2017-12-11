@@ -38,7 +38,8 @@
         <option value= "location">My Location</option>
         <option value="camera">Take a Picture</option>
         <option value="contacts">Access Contacts</option>
-         <option value="font">Fonts</option>
+         <option value="connection">Connection Type</option>
+         <option value="device">Device Information</option>
         <option value= "about"> About </option>
     </select>
 </section>
@@ -174,11 +175,16 @@
     <label id="contactname"></label>
     </section>
     
-    <section id="fonts">
-        <h3>Font List</h3>
-        <button onclick="checkConnection();">Fonts</button>
+    <section id="connection">
+        <h3>Network Connection</h3>
+        <button onclick="checkConnection();">Connection Type</button>
        <label id="show"></label>
      
+    </section>
+    
+    <section id="device">
+        <h3>Device Information</h3>
+        <button onclick="getInfo();">Device Information</button>
     </section>
     
 <section id= "aboutsect">
