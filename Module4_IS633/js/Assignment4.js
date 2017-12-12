@@ -704,7 +704,8 @@ function getInfo(){
   //alert('Model: ' +  device.model + ' Platform:' + device.platform);
    document.getElementById("model").innerHTML = device.model;
     document.getElementById("platform").innerHTML = device.platform;
-
+    document.getElementById("device").innerHTML = device.version;
+    document.getElementById("manufacturer").innerHTML = device.manufacturer;
 }
 
 
