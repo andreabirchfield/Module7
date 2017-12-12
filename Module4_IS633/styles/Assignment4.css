@@ -1,19 +1,19 @@
-#custlist { visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;}
-#custhist{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;}
-#deletecustomer{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;}
-#aboutsect{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
-#findme{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+#custlist { visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;background-color: #DDFFFF;}
+#custhist{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;background-color: #DDFFFF;}
+#deletecustomer{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;background-color: #DDFFFF;}
+#aboutsect{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;background-color: #DDFFFF;}
+#findme{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;background-color: #DDFFFF;}
 #testb{position: absolute; left: 200px;top: 800px;}
 #test{position: absolute; right:  200px;top: 800px;}
-#addcusto{top: 700px; right: 200px;}
-#updatestore{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
-#addcustomer{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
-.tablecenter tr:nth-child(odd){background-color: #dfe7f2;color: #000000;}
-.requirements{font-style: italic; color: red; overflow: scroll; word-wrap: break-word;}
-h1{text-align: center; font-family: cursive;}
-#picture {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #CCFFFF; }
+#addcusto{top: 700px; right: 200px;background-color: #DDFFFF;}
+#updatestore{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;background-color: #DDFFFF;}
+#addcustomer{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;background-color: #DDFFFF;}
+.tablecenter tr:nth-child(odd){background-color: #dfe7f2;color: #000000;background-color: #DDFFFF;}
+.requirements{font-style: italic; color: red; overflow: scroll; word-wrap: break-word;background-color: #DDFFFF;}
+h1{text-align: center; font-family: cursive;background-color: #DDFFFF;}
+#picture {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
 #contacts {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
 #connection {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
 #device {visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll; background-color: #DDFFFF; }
-img {float: left; height: 600px; width: auto; box-shadow: 10px 10px 5px 5px;}
+img {float: left; height: 600px; width: auto; box-shadow: 10px 10px 5px 5px;background-color: #DDFFFF;}
 
